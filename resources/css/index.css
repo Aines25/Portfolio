@@ -1,15 +1,43 @@
+
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #F3DFC1;
+    color: #7A8450;
 }
+
+
+/* .section-name::after {
+    content: "";
+    height: 4px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25px);
+    background: gray;
+} */
 
 /* End of global styles */
+.test{
+    display: flex;
+    border: pink 2px solid;
+}
 
+
+.my-photo {
+    height: 300px;
+    width: 200px;  
+}
+.my-img {
+    border: solid 2px pink;
+}
 .my-img img {
-    height: 200px;
-    width: 200px;
-    border-radius: 170px;
-    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
 
 }
+
+
+/* About me section */
