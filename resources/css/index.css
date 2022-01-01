@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #F3DFC1;
+    background-color: #121e2b;
     color: #7A8450;
 }
 
@@ -21,16 +21,16 @@ body {
 /* End of global styles */
 .test{
     display: flex;
-    border: pink 2px solid;
+    border: #D17A22 2px solid;
 }
 
 
 .my-photo {
-    height: 300px;
-    width: 200px;  
+    height: 500px;
+    width: 300px;  
 }
 .my-img {
-    border: solid 2px pink;
+    border: solid 2px #D17A22;
 }
 .my-img img {
     width: 100%;
@@ -41,3 +41,11 @@ body {
 
 
 /* About me section */
+
+
+
+  
+  .test {
+      height: 500px;
+      width: 300px;
+  }
