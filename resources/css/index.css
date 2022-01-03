@@ -22,6 +22,8 @@ body {
 .test{
     display: flex;
     border: #D17A22 2px solid;
+    height: 500px;
+      width: 300px;
 }
 
 
@@ -44,8 +46,11 @@ body {
 
 
 
-  
-  .test {
-      height: 500px;
-      width: 300px;
-  }
+/* Projects */
+
+.portfolio {
+    background-color: gray;
+}
+
+
+
