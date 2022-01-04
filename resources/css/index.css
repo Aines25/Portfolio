@@ -3,8 +3,8 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: white;
-    color: ;
+    background-color: #E0E1E0;
+    color: #2F334B;
 }
 
 
@@ -26,6 +26,10 @@ body {
       width: 300px;
 }
 
+.social-links i {
+    border: 2px solid pink;
+    border-radius: 50%;
+}
 
 .my-photo {
     height: 500px;
@@ -48,8 +52,9 @@ body {
 
 /* Projects */
 
-.portfolio {
-    background-color: gray;
+.portfolio, .skills {
+    background-color: #2F334B;
+    color: #E0E1E0;
 }
 
 
