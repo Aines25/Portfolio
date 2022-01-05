@@ -27,17 +27,14 @@ body {
 }
 
 .social-links i {
-    border: 2px solid pink;
-    border-radius: 50%;
+    
 }
 
 .my-photo {
     height: 500px;
     width: 300px;  
 }
-.my-img {
-    border: solid 2px #D17A22;
-}
+
 .my-img img {
     width: 100%;
     height: 100%;
