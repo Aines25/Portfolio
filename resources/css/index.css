@@ -23,7 +23,7 @@ body {
     display: flex;
     border: #D17A22 2px solid;
     height: 500px;
-      width: 300px;
+    width: 300px;
 }
 
 .social-links i {
@@ -52,6 +52,11 @@ body {
 .portfolio, .skills {
     background-color: #2F334B;
     color: #E0E1E0;
+    
+}
+
+.project-img {
+
 }
 
 
