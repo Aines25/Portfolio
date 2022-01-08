@@ -1,11 +1,13 @@
-
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     background-color: #E0E1E0;
     color: #2F334B;
+    font-family: 'Playfair Display', serif;
 }
+
+/* End of global styles */
 
 
 .about-svg {
@@ -17,6 +19,10 @@ body {
 .my-photo {
     height: 500px;
     width: 300px;  
+}
+
+.home-text h3,h4 {
+font-size: 2.5rem;
 }
 
 .my-img img {
