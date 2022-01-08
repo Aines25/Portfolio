@@ -19,7 +19,53 @@ body {
 .my-photo {
     height: 500px;
     width: 300px;  
+    animation: left-anim 2s ease 0s 1 normal forwards;
 }
+
+/* Left side animations start */
+@keyframes left-anim {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+li, .skills-anim {
+    animation: left-anim 2s ease 0s 1 normal forwards;
+}
+
+
+
+/* Left side animation end */
+
+/* Right side animation start */
+
+.home-text, .dev-lang {
+    animation: top-aim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes top-aim {
+    0% {
+      opacity: 0;
+      transform: translateY(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+/* Right side animation end */
+
 
 .home-text h3,h4 {
 font-size: 2.5rem;
@@ -39,7 +85,7 @@ font-size: 2.5rem;
 
 /* Projects */
 
-.portfolio, .skills {
+.projects, .skills {
     background-color: #2F334B;
     color: #E0E1E0;
     
