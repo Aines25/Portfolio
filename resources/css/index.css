@@ -8,27 +8,11 @@ body {
 }
 
 
-/* .section-name::after {
-    content: "";
-    height: 4px;
-    width: 200px;
-    position: absolute;
-    bottom: 0;
-    left: calc(50% - 25px);
-    background: gray;
-} */
-
-/* End of global styles */
-.test{
+.about-svg {
     display: flex;
-    border: #D17A22 2px solid;
     height: 500px;
-    width: 300px;
 }
 
-.social-links i {
-    
-}
 
 .my-photo {
     height: 500px;
@@ -59,5 +43,11 @@ body {
 
 }
 
+button {
+    background-color: #E0E1E0;
+}
 
+button:hover {
+    background-color: green;
+}
 
