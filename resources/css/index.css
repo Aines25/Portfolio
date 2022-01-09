@@ -22,7 +22,14 @@ body {
     animation: left-anim 2s ease 0s 1 normal forwards;
 }
 
+
+
 /* Left side animations start */
+
+.sec-head, .about .skills-anim, li {
+    animation: left-anim 2s ease 0s 1 normal forwards;
+}
+
 @keyframes left-anim {
     0% {
       opacity: 0;
@@ -35,31 +42,26 @@ body {
     }
 }
 
-li, .skills-anim {
-    animation: left-anim 2s ease 0s 1 normal forwards;
-}
-
-
 
 /* Left side animation end */
 
 /* Right side animation start */
 
-.home-text, .dev-lang {
-    animation: top-aim 2s ease 0s 1 normal forwards;
+.about-svg, .dev-lang, .home-text {
+ animation: svg 2s ease 0s 1 normal forwards;
 }
 
-@keyframes top-aim {
+@keyframes svg {
     0% {
       opacity: 0;
-      transform: translateY(-250px);
+      transform: translateX(50px);
     }
   
     100% {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateX(0);
     }
-  }
+}
 
 
 
@@ -102,4 +104,5 @@ button {
 button:hover {
     background-color: green;
 }
+
 
