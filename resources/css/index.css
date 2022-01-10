@@ -79,6 +79,29 @@ body {
 
 /* Right side animation end */
 
+/* Projects animation start */
+
+.project {
+    animation: project-anim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes project-anim {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+ }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+
+
+
+
+
+/* Projects animation end */
 
 
 
@@ -89,7 +112,7 @@ body {
 
 /* Projects */
 
-.projects, .skills {
+.projects-sec, .skills {
     background-color: #2F334B;
     color: #E0E1E0;
     
@@ -106,3 +129,4 @@ button:hover {
 .contact a i {
     color: #2F334B;
 }
+
