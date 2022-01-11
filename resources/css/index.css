@@ -11,6 +11,10 @@ body {
 /* End of global styles */
 
 
+/* First section */
+/* First section */
+/* First section */
+
 .about-svg {
     display: flex;
     height: 500px;
@@ -18,8 +22,7 @@ body {
 
 
 .my-photo {
-    height: 500px;
-    width: 300px;  
+    height: 500px;  
     animation: left-anim 2s ease 0s 1 normal forwards;
 }
 
@@ -28,11 +31,60 @@ body {
 }
     
 
-.my-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 25%;   
+/* End of first section */
+/* End of first section */
+/* End of first section */
+
+
+/* Skills section */
+/* Skills section */
+/* Skills section */
+
+
+/* End of skills section */
+/* End of skills section */
+/* End of skills section */
+
+
+
+
+
+/* Projects */
+/* Projects */
+/* Projects */
+
+.projects-sec, .skills {
+    background-color: #2F334B;
+    color: #E0E1E0;
+    
 }
+
+/* Projects end */
+/* Projects end */
+/* Projects end */
+
+/* Contact me  */
+/* Contact me  */
+/* Contact me  */
+
+.contact a i {
+    color: #2F334B;
+}
+
+
+
+.mail img {
+    height: 150px;
+}
+
+/* Contact me end */
+/* Contact me end */
+/* Contact me end */
+
+
+/* Animations  */
+/* Animations  */
+/* Animations  */
 
 
 /* Left side animations start */
@@ -54,6 +106,8 @@ body {
 }
 
 
+/* Left side animation end */
+/* Left side animation end */
 /* Left side animation end */
 
 /* Right side animation start */
@@ -77,6 +131,8 @@ body {
 
 
 
+/* Right side animation end */
+/* Right side animation end */
 /* Right side animation end */
 
 /* Projects animation start */
@@ -103,20 +159,15 @@ body {
 
 /* Projects animation end */
 
+/* Animations end */
+/* Animations end */
+/* Animations end */
 
 
 
-/* About me section */
-
-
-
-/* Projects */
-
-.projects-sec, .skills {
-    background-color: #2F334B;
-    color: #E0E1E0;
-    
-}
+/* Button styling */
+/* Button styling */
+/* Button styling */
 
 button {
     background-color: #E0E1E0;
@@ -126,12 +177,6 @@ button:hover {
     background-color: gray;
 }
 
-.contact a i {
-    color: #2F334B;
-}
-
-
-
-.mail img {
-    height: 150px;
-}
+/* Button end */
+/* Button end */
+/* Button end */
