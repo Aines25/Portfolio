@@ -15,17 +15,20 @@ body {
 /* First section */
 /* First section */
 
-.main-text {
-    display: none;
+.main-text h1 {
+    font-weight: 700;
 }
+
+/* First section media queries */
+/* First section media queries */
+/* First section media queries */
+
+@media (min-width: 576px) {.main {
+    display: flex;
+    flex-direction: row-reverse;
+
     
-
-/* First section media queries */
-/* First section media queries */
-/* First section media queries */
-
-
-@media (min-width: 576px) {}
+} }
 /* End of first section media queries */
 /* End of first section media queries */
 /* End of first section media queries */
@@ -92,50 +95,7 @@ body {
 /* Contact me end */
 
 
-/* Animations  */
-/* Animations  */
-/* Animations  */
-
-
-/* Left side animations start */
-
-
-
-
-/* Left side animation end */
-/* Left side animation end */
-/* Left side animation end */
-
-/* Right side animation start */
-
-
-
-
-
-
-/* Right side animation end */
-/* Right side animation end */
-/* Right side animation end */
-
-/* Projects animation start */
-
-
-
-
-
-
-
-/* Projects animation end */
-
-/* Animations end */
-/* Animations end */
-/* Animations end */
-
-
-
-/* Button styling */
-/* Button styling */
-/* Button styling */
+/* Button */
 
 button {
     background-color: #E0E1E0;
@@ -148,3 +108,9 @@ button:hover {
 /* Button end */
 /* Button end */
 /* Button end */
+
+/* footer */
+
+footer {
+    border-top: 1px solid #2F334B;
+}
