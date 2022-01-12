@@ -15,48 +15,58 @@ body {
 /* First section */
 /* First section */
 
-.about-svg {
-    display: flex;
-    height: 500px;
-}
-
-
-.my-photo {
-    height: 500px;  
-    animation: left-anim 2s ease 0s 1 normal forwards;
-}
-
-.home-text h3,h4 {
-    font-size: 2.5rem;
+.main-text {
+    display: none;
 }
     
 
+/* First section media queries */
+/* First section media queries */
+/* First section media queries */
+
+
+@media (min-width: 576px) {}
+/* End of first section media queries */
+/* End of first section media queries */
+/* End of first section media queries */
+
 /* End of first section */
 /* End of first section */
 /* End of first section */
 
+/* About me section */
+/* About me section */
 
-/* Skills section */
-/* Skills section */
-/* Skills section */
-
-
-/* End of skills section */
-/* End of skills section */
-/* End of skills section */
-
-
-
-
-
-/* Projects */
-/* Projects */
-/* Projects */
-
-.projects-sec, .skills {
+.about-me {
     background-color: #2F334B;
     color: #E0E1E0;
-    
+}
+
+
+/* About me section end */
+/* About me section end */
+/* About me section end */
+
+/* Skills section */
+/* Skills section */
+/* Skills section */
+
+
+/* End of skills section */
+/* End of skills section */
+/* End of skills section */
+
+
+
+
+
+/* Projects */
+/* Projects */
+/* Projects */
+
+.projects {
+    background-color: #2F334B;
+    color: #E0E1E0 ;
 }
 
 /* Projects end */
@@ -89,21 +99,7 @@ body {
 
 /* Left side animations start */
 
-.sec-head, .about, .skills-anim, li {
-    animation: left-anim 2s ease 0s 1 normal forwards;
-}
 
-@keyframes left-anim {
-    0% {
-      opacity: 0;
-      transform: translateX(-250px);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-}
 
 
 /* Left side animation end */
@@ -112,21 +108,7 @@ body {
 
 /* Right side animation start */
 
-.about-svg, .dev-lang, .home-text {
- animation: svg 2s ease 0s 1 normal forwards;
-}
 
-@keyframes svg {
-    0% {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-}
 
 
 
@@ -137,21 +119,7 @@ body {
 
 /* Projects animation start */
 
-.project {
-    animation: project-anim 2s ease 0s 1 normal forwards;
-}
 
-@keyframes project-anim {
-    0% {
-      opacity: 0;
-      transform: scale(0.3);
- }
-  
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-}
 
 
 
