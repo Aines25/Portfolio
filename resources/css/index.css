@@ -23,12 +23,26 @@ body {
 /* First section media queries */
 /* First section media queries */
 
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {.main {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    } .main-text h1 {
+        font-size: 1em;
+        padding-top: 20px;
+    }
+    .main-text h3 {
+        font-size: 1em;
+    }
+}
 
-    
-} }
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+ 
+
+
+
 /* End of first section media queries */
 /* End of first section media queries */
 /* End of first section media queries */
