@@ -38,7 +38,11 @@ body {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media (min-width: 768px) {.main-text {
+    font-size: 2em;
+} .laptop-svg img {
+    margin-top: 100px;
+}}
  
 
 
