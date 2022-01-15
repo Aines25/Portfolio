@@ -29,20 +29,27 @@ body {
     display: flex;
     flex-direction: row;
     } .main-text h1 {
-        font-size: 1em;
+        
         padding-top: 20px;
     }
     .main-text h3 {
-        font-size: 1em;
+        font-size: 0.5em;
     }
+    .laptop-svg {align-items: center;
+    display: flex;}
 }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) and (orientation: landscape) {.main-text h1 {
+    font-size: 1em;
+} .main-text h3 {
+    font-size: 0.75em;
+} }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {.main-text {
     font-size: 2em;
-} .laptop-svg img {
-    margin-top: 100px;
-}}
+} }
  
 
 
