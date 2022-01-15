@@ -29,7 +29,6 @@ body {
     display: flex;
     flex-direction: row;
     } .main-text h1 {
-        
         padding-top: 20px;
     }
     .main-text h3 {
@@ -46,60 +45,42 @@ body {
     font-size: 0.75em;
 } }
 
+@media (max-width: 768px) {
+ .projects h5 {
+    font-size: 0.75em;
+}}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {.main-text {
     font-size: 2em;
+}}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {.main-text {
+    font-size: 3em;
 } }
  
 
 
 
-/* End of first section media queries */
-/* End of first section media queries */
-/* End of first section media queries */
+/* End of media queries */
+/* End of media queries */
+/* End of media queries */
 
-/* End of first section */
-/* End of first section */
-/* End of first section */
 
 /* About me section */
 /* About me section */
 
-.about-me {
+.about-me, .projects{
     background-color: #2F334B;
     color: #E0E1E0;
 }
 
 
 /* About me section end */
-/* About me section end */
-/* About me section end */
-
-/* Skills section */
-/* Skills section */
-/* Skills section */
-
-
-/* End of skills section */
-/* End of skills section */
-/* End of skills section */
 
 
 
-
-
-/* Projects */
-/* Projects */
-/* Projects */
-
-.projects {
-    background-color: #2F334B;
-    color: #E0E1E0 ;
-}
-
-/* Projects end */
-/* Projects end */
-/* Projects end */
 
 /* Contact me  */
 /* Contact me  */
@@ -107,12 +88,6 @@ body {
 
 .contact a i {
     color: #2F334B;
-}
-
-
-
-.mail img {
-    height: 150px;
 }
 
 /* Contact me end */
