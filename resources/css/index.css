@@ -4,13 +4,15 @@ body {
     margin: 0;
     background-color: #E0E1E0;
     color: #2F334B;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 /* End of global styles */
 
 /* First section  */
+
+/* CC animation */
 .main-text h1 {
     font-weight: 700;
     animation: myAnim 1s ease 0s 1 normal forwards;
@@ -27,7 +29,45 @@ body {
       transform: translateY(0);
     }
 }
+/* CC animation end */
 
+/* h3 text and button */
+
+.main-text h3, button {
+    animation: twoAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes twoAnim {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* End of h3 and button */
+
+  /* Social links  */
+
+  .social-links {
+    animation: socials 2s ease 0s 1 normal forwards;
+  }
+
+  @keyframes socials {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 /* first section end  */
 
@@ -49,16 +89,10 @@ body {
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (min-width: 767.98px) and (orientation: landscape) {.main-text h1 {
-    font-size: 1em;
-} .main-text h3 {
-    font-size: 0.75em;
-} }
-
 @media (max-width: 768px) {
  .projects h5 {
     font-size: 0.75em;
-}
+} 
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -66,7 +100,8 @@ body {
     font-size: 2em;
 }.main-text h1 {
     font-size: 1em;
-}}
+} 
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {.main-text {
@@ -129,6 +164,7 @@ body {
 
 .contact a i {
     color: #2F334B;
+    text-decoration: none;
 }
 
 /* Contact me end */
@@ -144,7 +180,9 @@ button {
 }
 
 button:hover {
-    background-color: gray;
+    background-color: #2F334B;
+    color: #E0E1E0;
+    border: #E0E1E0 1px solid;
 }
 
 /* Button end */
