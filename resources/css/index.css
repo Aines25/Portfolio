@@ -10,20 +10,14 @@ body {
 
 /* End of global styles */
 
-
-/* First section */
-/* First section */
-/* First section */
-
+/* First section  */
 .main-text h1 {
     font-weight: 700;
 }
 
-/* First section media queries */
-/* First section media queries */
-/* First section media queries */
 
 
+/* Media queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {.main {
     display: flex;
@@ -35,7 +29,8 @@ body {
         font-size: 0.5em;
     }
     .laptop-svg {align-items: center;
-    display: flex;}
+    display: flex;
+    } 
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -48,11 +43,14 @@ body {
 @media (max-width: 768px) {
  .projects h5 {
     font-size: 0.75em;
-}}
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {.main-text {
     font-size: 2em;
+}.main-text h1 {
+    font-size: 1em;
 }}
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -61,14 +59,11 @@ body {
 } }
  
 
-
-
-/* End of media queries */
-/* End of media queries */
 /* End of media queries */
 
 
-/* About me section */
+
+
 /* About me section */
 
 .about-me, .projects{
@@ -76,14 +71,45 @@ body {
     color: #E0E1E0;
 }
 
-
 /* About me section end */
 
+/* projects start */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.75s;
+}
+
+.overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.75s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay:hover > * {
+    transform: translatey(0);
+}
+
+.project-description {
+    font-size: 0.85em;
+}
+
+/* projects end  */
 
 
-
-/* Contact me  */
-/* Contact me  */
 /* Contact me  */
 
 .contact a i {
@@ -91,11 +117,12 @@ body {
 }
 
 /* Contact me end */
-/* Contact me end */
-/* Contact me end */
 
+/* Button styling */
 
-/* Button */
+.download {
+    border-radius: 15px;
+}
 
 button {
     background-color: #E0E1E0;
@@ -106,11 +133,14 @@ button:hover {
 }
 
 /* Button end */
-/* Button end */
-/* Button end */
+
 
 /* footer */
 
 footer {
     border-top: 1px solid #2F334B;
+    font-size: 0.75em;
 }
+
+/* footer end */
+
