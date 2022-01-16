@@ -5,8 +5,9 @@ body {
     background-color: #E0E1E0;
     color: #2F334B;
     font-family: 'Poppins', sans-serif;
-    
 }
+
+html {scroll-behavior: smooth;}
 
 /* End of global styles */
 
