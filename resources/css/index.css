@@ -58,6 +58,10 @@ html {scroll-behavior: smooth;}
     animation: socials 2s ease 0s 1 normal forwards;
   }
 
+  .social-links a {
+      color: #2F334B;
+  }
+
   @keyframes socials {
     0% {
       opacity: 0;
