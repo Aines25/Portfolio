@@ -7,6 +7,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 html {scroll-behavior: smooth;}
 
 /* End of global styles */
@@ -16,10 +20,10 @@ html {scroll-behavior: smooth;}
 /* CC animation */
 .main-text h1 {
     font-weight: 700;
-    animation: myAnim 1s ease 0s 1 normal forwards;
+    animation: mainAnimation 1s ease 0s 1 normal forwards;
 }
 
-@keyframes myAnim {
+@keyframes mainAnimation {
     0% {
       opacity: 0;
       transform: translateY(50px);
@@ -35,10 +39,10 @@ html {scroll-behavior: smooth;}
 /* h3 text and button */
 
 .main-text h3, button {
-    animation: twoAnim 1s ease 0s 1 normal forwards;
+    animation: secondAnimation 1s ease 0s 1 normal forwards;
 }
 
-@keyframes twoAnim {
+@keyframes secondAnimation {
     0% {
       opacity: 0;
       transform: translateY(200px);
@@ -59,7 +63,7 @@ html {scroll-behavior: smooth;}
   }
 
   .social-links a {
-      color: #2F334B;
+    color: #2F334B;
   }
 
   @keyframes socials {
@@ -193,12 +197,26 @@ button:hover {
 /* Button end */
 
 
-/* footer */
 
+
+/* social icon styling */
+.icons {text-decoration: none;
+    font-size: 2rem;
+    transition: all .2s ease;
+}
+    
+.icons:hover {
+    font-size: 2.25rem;
+}
+
+/* social icon styling end */
+
+
+
+/* footer */
 footer {
     border-top: 1px solid #2F334B;
     font-size: 0.75em;
 }
 
 /* footer end */
-
